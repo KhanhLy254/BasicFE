@@ -1,4 +1,12 @@
 html {font-family:"Trirong", sans-serif;}
+.container {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1320px;
+}
 header{
     justify-content: space-between;     
     display: flex;    
@@ -88,9 +96,10 @@ header{
     font-size: 16px; 
     letter-spacing: 1px; 
 }
-body{
-    padding: 0px 300px;
+.skill-list {
+    width: 80%;
 }
+
 .content3{
     letter-spacing: 1px;
     font-size: 40;
@@ -129,9 +138,6 @@ body{
     margin-bottom: 100px;
 }
 
-.coreskills, .otherskills {
-    width: 65%; 
-} 
 .skill-list{
     list-style: none;
     display: flex;    
@@ -158,11 +164,14 @@ body{
     display: inline-block;
 }
 .experience-container{
-    display: flex; 
+    display: grid;
+    grid-template-columns: auto auto; 
 }
-.experience1, .experience2{
-    width: 65%;
+.experience{
+    width: 80%;
+    padding: 15px 0; 
 }
+
 .classp{
     font-size: 26px;
 }
