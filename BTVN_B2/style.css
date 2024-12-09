@@ -1,30 +1,170 @@
-.ds-header {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    width: 100%;
-    height: 60px;
-}
-.ds-header1 {
-    margin-left: 64px;
-    margin-right: 64px;
-    padding-left: 12px;
-    padding-right: 12px;
-    width: 100%;
-    height: 60px;
-}
-.ds-header2{
-    width:224px;
-    height: 60px;
+html {font-family:"Trirong", sans-serif;}
+header{
+    justify-content: space-between;     
+    display: flex;    
+    padding: 70px 0px;
 }
 
+/* 1.Header */
 .logo1 {
-    background-color:black;
+    background-color: black;    
     color: white;
-    border-radius: 5px;
-    width: 88px;
-    height: 60px;
-    padding-right: 12px;
+    padding: 4%;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 0px 12px 0px 0px; 
+    box-sizing: border-box; 
 }
+
+.label{
+    font-size: 18px;
+    margin-top: 5%;
+    letter-spacing: 5px;
+}
+
+.logo-header{
+    display: flex;
+}
+
 .social {
+    background-color: rgb(227, 111, 111);
+    border-radius: 50%;
+    padding: 2px;
     display: inline-block;
 }
+
+/* main */
+
+.image{
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+}
+.image figure {
+    margin: 0%;
+}
+
+.image div{
+    padding-left: 30px; 
+    padding-right: 100px;
+}
+
+.image div h1 span{ 
+    display: block; 
+    letter-spacing: 1px;  
+    font-weight: 500; 
+    font-size: 16px; 
+    padding-bottom: 20px; 
+}
+
+.exp-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px; 
+    padding: 10px; 
+    margin-top: 60px;
+}
+
+.exp-list li{
+    display: grid;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #373737;
+}
+
+.exp-list strong{
+    display: block; 
+    color: #F26464; 
+    font-size: 30px; 
+    font-weight: 800;
+}
+
+.exp-list span{ 
+    font-size: 16px; 
+    letter-spacing: 1px; 
+}
+body{
+    padding: 0px 300px;
+}
+.content3{
+    letter-spacing: 1px;
+    font-size: 40;
+}
+.aboutme {
+    border-bottom: 3px solid #F26464;
+    width: fit-content;
+}
+.para{
+    letter-spacing: 1px;
+    font-weight: 100;
+    word-spacing: 2px;
+}
+.dl{
+    text-align: center;
+}
+.download{
+    text-align: cente ;
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 2px solid #F26464; 
+    border-radius: 30px;
+    color: #F26464; 
+    font-size: 14px; 
+    letter-spacing: 1px; 
+    margin-bottom: 100px;
+}
+.h3list{
+    border-bottom: 3px solid #F26464;
+    width: fit-content;
+
+}
+.skill-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 100px;
+}
+
+.coreskills, .otherskills {
+    width: 65%; 
+} 
+.skill-list{
+    list-style: none;
+    display: flex;    
+    padding: 0px;
+    margin: 0px;    
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 11px;
+}
+.skill-list li{
+    display: inline-block;
+    border: 1px solid #c7c3c3;
+    border-radius: 27px;
+    padding: 10px 20px;
+    margin: 0px 15px 15px 0px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    color: #373737;
+}
+.h2{
+    border-bottom: 3px solid #F26464;
+    width: fit-content;
+    display: inline-block;
+}
+.experience-container{
+    display: flex; 
+}
+.experience1, .experience2{
+    width: 65%;
+}
+.classp{
+    font-size: 26px;
+}
+
+
