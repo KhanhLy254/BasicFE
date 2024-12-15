@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(98, 80, 170);
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+}
+
+.content{
+    padding-top: 70px;
+    height: 200vh;
+}
+.search{
+    border: 1px solid rgb(234, 235, 241);
+    border-radius: 5px;
+    padding: 5px 70px 5px 5px;
+    background-color: rgb(169, 155, 210);
+}.signup{
+    border: 1px solid rgb(234, 235, 241);
+    border-radius: 5px;
+    padding: 5px;
+}
+.sticky{
+    display: flex;
+    width: 52px;
+    height: 52px;
+    z-index: 998;
+    bottom:10px;
+    position: sticky;
+    border-radius: 50%;
+    background-color: rgb(214, 203, 225);
+    justify-content: center;
+    align-items: center;
+    float: right;
+    right:10px;
+}
