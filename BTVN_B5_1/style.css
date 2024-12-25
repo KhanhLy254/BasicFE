@@ -6,10 +6,10 @@
     left: -25px;
     transition: all 1s ease;
 }
+
 .img1:hover{
     opacity: 1;
     left: 0px;
-    
 }
 .anh1{
     position: relative;
