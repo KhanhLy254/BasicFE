@@ -10,9 +10,9 @@
 }
 @keyframes exp {
     0%   {left:0px; top:0px;}
-    25%  {left:200vh; top:0px;}
-    50%  {left:200vh; top:90vh;}
-    75%  {left:0px; top:90vh;}
+    25%  {left:204vh; top:0px;}
+    50%  {left:204vh; top:93vh;}
+    75%  {left:0px; top:93vh;}
     100% {left:0px; top:0px;}
 }
 .loadingbox{
