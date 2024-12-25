@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.loading{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(156, 154, 154)
+}

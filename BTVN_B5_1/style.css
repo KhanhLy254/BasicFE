@@ -1,0 +1,87 @@
+.img1{
+    opacity: 0.8;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    left: -25px;
+    transition: all 1s ease;
+}
+.img1:hover{
+    opacity: 1;
+    left: 0px;
+    
+}
+.anh1{
+    position: relative;
+    width: 475px;
+    height: 350px;
+    overflow: hidden;
+}
+.content_box{
+    position: absolute;
+    color: white;
+    padding: 0 10px;
+    top: 250px;
+    z-index: 1;
+    transition: all 1s ease;
+   
+}
+.text{
+    visibility: hidden;
+    opacity: 0;
+}
+.anh1:hover .text{
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s ease;
+}
+.anh1:hover .content_box{
+    top:220px;
+}
+/* anh 2 */
+.anh2{
+    position: relative;
+    width: 475px;
+    height: 350px;
+}
+.img2{
+    opacity: 1;
+    width: 475px;
+    height: 350px;
+    transition: all 0.25s linear;
+}
+.img2:hover{
+    opacity: 0.7;  
+    transition: all 0.25s linear;
+}
+.content_box2 {
+    position: absolute;
+    top: 150px;
+    padding: 0 10px;
+    z-index: 1;
+    transition: all 0.25s linear;   
+    left: 15%; 
+    text-align: center;
+}
+.text2{
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    color: white;
+    top: 100px;
+}
+.anh2:hover .text2{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s linear;
+}
+.titlebox2{
+    color: rgb(38, 28, 92);
+}
+.anh2:hover .titlebox2{
+    color: white;
+    transition: all 0.25s linear;
+}
+.anh2:hover .content_box2{
+    top:130px;
+}
