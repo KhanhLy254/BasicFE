@@ -1,11 +1,3 @@
-html {font-family: sans-serif;}
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    font-family: "Montserrat Underline", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-} */
 .container {
     width: 100%;
     padding-right: 0.75rem;
@@ -13,150 +5,187 @@ html {font-family: sans-serif;}
     margin-right: auto;
     margin-left: auto;
     max-width: 1320px;
-}
-header{
-    justify-content: space-between;     
-    display: flex;    
-    padding: 70px 0px;
+    font-family: sans-serif;
 }
 
 /* 1.Header */
+header {
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    max-width: 1320px;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
 .logo1 {
-    background-color: black;    
+    background-color: black;
     color: white;
     padding: 4%;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     font-size: 22px;
     font-weight: 700;
     border-radius: 4px;
-    margin: 0px 12px 0px 0px; 
-    box-sizing: border-box; 
+    margin: 0px 12px 0px 0px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-.label{
+.label {
     font-size: 18px;
     margin-top: 5%;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
-.logo-header{
+.logo-header {
     display: flex;
 }
 
 .social {
     background-color: #F26464;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     padding: 2px;
     display: inline-block;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 }
-
+.social:hover{
+    background-color: black;
+}
 /* main */
-
-.image{
-    justify-content: space-between;
+main {
+    padding-top: 205px;
+}
+/* section1 */
+.image {
     display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
 }
+
 .image figure {
     margin: 0%;
 }
 
-.image div{
-    padding-left: 30px; 
-    padding-right: 100px;
+.image div {
+    padding-left: 100px;
+    padding-right:160px;
 }
 
-.image div h1 span{ 
-    display: block; 
-    letter-spacing: 1px;  
-    font-weight: 500; 
-    font-size: 16px; 
-    padding-bottom: 20px; 
+.image div h1 {
+    font-size: 50px;
+    font-weight: 550;
 }
 
-.exp-list{
+.image div h1 span {
+    display: block;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.exp-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 10px; 
-    padding: 10px; 
+    margin: 10px;
+    padding: 10px;
     margin-top: 60px;
 }
 
-.exp-list li{
+.exp-list li {
     display: grid;
-    margin-right: 20px;
+    margin-right: 50px;
     font-size: 15px;
     color: #373737;
 }
 
-.exp-list strong{
-    display: block; 
-    color: #F26464; 
-    font-size: 30px; 
+.exp-list strong {
+    display: block;
+    color: #F26464;
+    font-size: 30px;
     font-weight: 800;
 }
 
-.exp-list span{ 
-    font-size: 16px; 
-    letter-spacing: 1px; 
+.exp-list span {
+    font-size: 16px;
+    letter-spacing: 1px;
 }
+/* section2 */
 .skill-list {
     width: 80%;
 }
-
-.content3{
+/* about me */
+.content3 {
     letter-spacing: 1px;
+    word-spacing: 1px;
     font-size: 40;
 }
+
 .aboutme {
     border-bottom: 3px solid #F26464;
     width: fit-content;
 }
-.para{
+
+.para {
     letter-spacing: 1px;
     font-weight: 100;
     word-spacing: 2px;
 }
-.dl{
+
+.dl {
     text-align: center;
 }
-.download{
-    text-align: center ;
-    display: inline-block; 
-    padding: 10px 20px; 
-    border: 2px solid #F26464; 
+
+.download {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #F26464;
     border-radius: 30px;
-    color: #F26464; 
-    font-size: 14px; 
-    letter-spacing: 1px; 
+    color: #F26464;
+    font-size: 14px;
+    letter-spacing: 1px;
     margin-bottom: 40px;
 }
-.h3list{
+
+.download:hover{
+    background-color: #F26464;
+    color: white;
+}
+
+.h3list {
     border-bottom: 3px solid #F26464;
     width: fit-content;
 
 }
+
 .skill-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin-bottom: 100px;
+    
 }
-
-.skill-list{
+.skill-list {
     list-style: none;
-    display: flex;    
+    display: flex;
     padding: 0px;
-    margin: 0px;    
+    margin: 0px;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 11px;
 }
-.skill-list li{
+
+.skill-list li {
     display: inline-block;
     border: 1px solid #c7c3c3;
     border-radius: 27px;
@@ -167,52 +196,70 @@ header{
     font-weight: 500;
     color: #373737;
 }
-.h2{
+
+.h2 {
     border-bottom: 3px solid #F26464;
     width: fit-content;
     display: inline-block;
 }
-.experience-container{
+/* work experience */
+.experience-container {
     display: grid;
-    grid-template-columns: auto auto; 
-}
-.experience{
-    width: 80%;
-    padding: 15px 0; 
+    grid-template-columns: auto auto;
+    
 }
 
-.classp{
+.experience {
+    width: 80%;
+    padding: 15px 0;
+}
+
+.classp {
     font-size: 26px;
 }
-section{
+
+section {
     display: flex;
     background-color: rgb(236, 236, 236);
     padding-top: 40px;
     margin: 40px 0;
 }
 
-
-
-
-
-.contentlw1{
+.contentlw1 {
     padding: 40px 40px;
 }
-.contentlw1 p{
+
+.contentlw1 p {
     font-weight: 100;
     line-height: 40px;
 }
 
-.contentlw2{
+.contentlw2 {
     padding: 40px 20px 0;
 }
-.footerr{
-    padding: 40px 0;
+.download1 {
+    display: inline-block;
+    padding: 5px 25px;
+    border: 2px solid #F26464;
+    border-radius: 30px;
+    color: #F26464;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.download1:hover{
+    background-color: #F26464;
+    color: white;
+}
+.dl1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.footerr {
+    font-family: sans-serif;
+    padding: 80px 0;
     width: 100%;
     background-color: black;
     text-align: center;
     color: white;
-
 }
-
-

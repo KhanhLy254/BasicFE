@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <header>
+        <header id="header">
             <div class="logo-header">
                 <span class="logo1">J</span>
                 <span class="label">JASON STROFF</span>
@@ -23,6 +23,7 @@
             </ul>
 
         </header>
+
         <main>
             <div class="image">
                 <figure>
@@ -88,8 +89,6 @@
                     </ul>
                 </div>
             </div>
-
-
             <div class="work-experience">
                 <h3 class="h2">WORK EXPEREIENCE</h3>
                 <div class="experience-container">
@@ -121,8 +120,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="lastestworks">
                 <div class="work-list">
                     <h3 class="h2">LASTEST WORKS</h3>
@@ -136,8 +133,8 @@
                                     efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci
                                     non
                                     sodales.</p>
-                                <div class = "dl">
-                                    <p class="download">DETAILS</p>
+                                <div class = "dl1">
+                                    <p class="download1" >DETAILS</p>
                                 </div>
                             </div>
                             <div class="contentlw2">
@@ -154,8 +151,8 @@
                                     efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci
                                     non
                                     sodales.</p>
-                                <div class = "dl">
-                                    <p class="download">DETAILS</p>
+                                <div class = "dl1">
+                                    <p class="download1">DETAILS</p>
                                 </div>
                             </div>
                             <div class="contentlw2">
@@ -172,8 +169,8 @@
                                     efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci
                                     non
                                     sodales.</p>
-                                <div class = "dl">
-                                    <p class="download">DETAILS</p>
+                                <div class = "dl1">
+                                    <p class="download1">DETAILS</p>
                                 </div>
                             </div>
                             <div class="contentlw2">
@@ -185,8 +182,8 @@
                 </div>
             </div>
         </main>
-
     </div>
+
     <footer>
         <div class = "footerr">
             <p style = "color: gray"><strong>STAY IN TOUCH</strong></p>
@@ -195,5 +192,18 @@
             <p class="download">LETS TALK</p>
             <p>© 2022 All rights reserved. Free minimal bootstrap template by Designstub.</p>
     </footer>
+    <script>
+        const header = document.getElementById('header');
+        const originalHeight = 210;
+        const scrolledHeight = 110;
+    
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 0) {
+            header.style.height = `${scrolledHeight}px`;
+          } else {
+            header.style.height = `${originalHeight}px`;
+          }
+        });
+    </script>
 </body>
 </html>
