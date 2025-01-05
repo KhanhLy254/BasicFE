@@ -1,0 +1,91 @@
+.container{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    position: sticky;
+    background-color: white;
+    z-index: 1000;
+    top: 0px;
+    height: 92px;
+}
+
+.container span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #E52F37;
+}
+.container ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.container li{    
+    transition: all 0.1s ease-in;
+    font-weight: 600;
+}
+.container li:hover{
+    color: #E52F37;
+}
+
+.getstarted{
+    border: 1px solid #E52F37;
+    display: flex;
+    align-items: center;
+    background-color: #E52F37;
+    color: white;
+    border-radius: 27px;
+    padding: 10px 20px;
+}
+
+.getstarted:hover{
+    color: #E52F37;
+    background-color: white;
+    border:1px solid #E52F37;
+}
+.mainn{
+    width: 100%;
+    color: white;
+    background-color: rgb(205, 185, 223);
+    height: 2000px;
+}
+.button{
+    display: none;
+}
+
+
+
+/* ===================
+Viewpoint
+=================== */
+
+@media only screen and (max-width: 992px){
+    .container span{
+        font-size: 25px;
+        font-weight: 500;
+        color: #E52F37;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .container ul{
+        display: none;
+    }
+    .button{
+        display: block;
+        width: 40px;
+        height: 30px;
+        border: 1px solid #E52F37;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+

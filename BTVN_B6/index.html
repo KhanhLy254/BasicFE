@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="mainHeader" id="header">
+        <div class = "container">
+            <span>LaunchPage</span>
+            <div class="button">
+                <img src="./menu-line.png" alt="">
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Testimonials</li>
+                <li>Work</li>
+                <li>Team</li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li class = "getstarted">Get Started</li>
+            </ul>
+            
+        </div>
+    </header>
+    <main>
+        <div class = "mainn">
+        </div>
+    </main>
+    <script>
+        const header = document.getElementById('header');
+    
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 500) {
+            header.style.position = "sticky";
+            header.style.top = 0;
+          } else {
+            header.style.position = "";
+          }
+        });
+    </script>
+</body>
+</html>
